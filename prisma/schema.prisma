@@ -1,0 +1,33 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Journal {
+  id        Int      @id @default(autoincrement())
+  mood      String
+  entry     String
+  createdAt DateTime @default(now())
+}
+
+model Manifestation {
+  id        Int      @id @default(autoincrement())
+  content   String
+  createdAt DateTime @default(now())
+}
+
+model VisionItem {
+  id        Int      @id @default(autoincrement())
+  text      String
+  image     String?
+  category  String?
+  createdAt DateTime @default(now())
+}
