@@ -1,0 +1,30 @@
+# 🌱 MindMate – Student Mental Health Companion  
+
+MindMate is a **student-first mental well-being app** designed to help learners manage stress, stay positive, and build healthy habits.  
+It combines **self-reflection tools, emotional support, and gamified rewards** in one safe, uplifting space.  
+
+## ✨ Features
+- 🌈 **Vision Board** – Add images + affirmations to visualize goals  
+- 🙏 **Gratitude & Prayer Page** – Calming reflections with animations  
+- 🌞 **Daily Affirmations** – Gentle reminders at the click of a button  
+- 📝 **Manifestation Journal** – Save affirmations & personal goals  
+- 🤝 **Buddy System** – Peer accountability check-ins  
+- 💭 **Safe Venting Box** – Private, secure frustration release  
+- 📊 **Wellness Tracker** – Sleep, hydration, exercise & screen-time  
+- 📞 **Emergency Helplines** – Quick access to counselors & hotlines  
+- 🤖 **AI Coping Tips** – Personalized mental health suggestions  
+- 🏆 **Gamified Rewards** – Earn badges for consistency & streaks  
+
+## 🛠️ Built With
+- [Next.js (App Router)](https://nextjs.org/) – core frontend & routing  
+- [React + TypeScript](https://www.typescriptlang.org/) – interactive components & type safety  
+- [TailwindCSS](https://tailwindcss.com/) – clean, responsive UI  
+- [Framer Motion](https://www.framer.com/motion/) – animations for soothing UX  
+- [Node.js API Routes](https://nodejs.org/) – journaling & trackers  
+- LocalStorage – privacy-first data saving  
+- [Vercel](https://vercel.com/) – fast hosting & deployment  
+
+## 🚀 Getting Started
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/your-username/mindmate.git
